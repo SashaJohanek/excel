@@ -1,10 +1,4 @@
 ## Running the Example
-Clone the repository from GitHub and open the created folder:
-
-```
-git clone https://github.com/felixrieseberg/React-Spreadsheet-Component.git
-cd React-Spreadsheet-Component
-```
 
 Install npm packages and compile JSX
 ```
