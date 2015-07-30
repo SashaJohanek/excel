@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+        <title>React Spreadsheet Example</title>
+        <link rel="stylesheet" type="text/css" href="../styles/excel.css" />
+        <link rel="stylesheet" type="text/css" href="example.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body>        
+        <div class="example">
+            <h3>ANALYSIS/LOGIC:</h3>
+            <div id="exampleOne"></div>
+        </div>
+        <div class="example">
+            <h3>DATA ENTRY:</h3>
+            <div id="exampleTwo"></div>
+        </div>        
+        <script src="bundle.js"></script>
+
+        <DatePicker  hintText="Ranged Date Picker"  autoOk={this.state.autoOk}  minDate={this.state.minDate}  maxDate={this.state.maxDate}  showYearSelector={this.state.showYearSelector} />
+    </body>
+</html>
